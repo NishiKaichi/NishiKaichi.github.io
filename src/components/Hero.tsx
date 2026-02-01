@@ -46,7 +46,7 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-4 border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1598978028953-799807c097b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBjb2RpbmclMjB3b3Jrc3BhY2UlMjBtaW5pbWFsfGVufDF8fHx8MTc2OTkyNjU1NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/images/test.jpg"
                 alt="Workspace"
                 className="w-full h-full object-cover"
               />
