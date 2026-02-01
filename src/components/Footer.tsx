@@ -11,8 +11,8 @@ export function Footer() {
               <span className="font-semibold text-lg">NishiKaichi</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Building the web, one project at a time. 
-              Passionate about creating meaningful digital experiences.
+              芝浦工業大学
+              工学部 情報通信工学科 4年
             </p>
           </div>
 
@@ -62,7 +62,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="https://twitter.com"
+                href="https://x.com/syaf_wantjob"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition"

@@ -109,7 +109,7 @@ export function Projects() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            A selection of my recent work. Each project represents a unique challenge and learning opportunity.
+            私がGitHubで公開しているプロジェクトをご紹介します．
           </p>
         </div>
 

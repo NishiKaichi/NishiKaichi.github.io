@@ -19,14 +19,12 @@ export function Hero() {
                 NishiKaichi
               </h1>
               <p className="text-xl md:text-2xl text-gray-600">
-                Full Stack Developer
+                かけだし開発者
               </p>
             </div>
             
             <p className="text-gray-600 text-lg leading-relaxed">
-              Passionate about creating elegant solutions to complex problems. 
-              I build modern web applications with a focus on user experience, 
-              performance, and clean code.
+              近年急激な進化を遂げるAIに興味を持ち，少しずつ勉強している大学生です．<br />
             </p>
 
             <div className="flex gap-4 flex-wrap">

@@ -9,8 +9,8 @@ export function Contact() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            I'm always open to new opportunities and collaborations. 
-            Feel free to reach out if you'd like to work together!
+            ご質問などがありましたら，お気軽にご連絡ください．
+            多くの方との交流を楽しみにしています！
           </p>
         </div>
 
@@ -18,7 +18,7 @@ export function Contact() {
           <CardContent className="p-8">
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               <a 
-                href="mailto:your.email@example.com"
+                href="mailto:nishikaichi.28work@gmail.com"
                 className="flex items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-all duration-300"
               >
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
@@ -26,7 +26,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div className="text-sm text-gray-600">your.email@example.com</div>
+                  <div className="text-sm text-gray-600">nishikaichi.28work@gmail.com</div>
                 </div>
               </a>
 
@@ -61,7 +61,7 @@ export function Contact() {
               </a>
 
               <a 
-                href="https://twitter.com"
+                href="https://x.com/syaf_wantjob"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-sky-500 hover:bg-sky-50 transition-all duration-300"
@@ -71,17 +71,17 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Twitter</div>
-                  <div className="text-sm text-gray-600">Follow me</div>
+                  <div className="text-sm text-gray-600">@syaf_wantjob</div>
                 </div>
               </a>
             </div>
 
             <div className="text-center pt-6 border-t border-gray-200">
               <p className="text-gray-600 mb-4">
-                Looking for someone to bring your ideas to life?
+                ご質問やご依頼がありましたら、お気軽にご連絡ください。
               </p>
               <Button size="lg" asChild>
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:nishikaichi.28work@gmail.com">
                   <Mail className="mr-2 w-4 h-4" />
                   Send me an email
                 </a>
