@@ -1,0 +1,37 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        border: 'rgba(0, 0, 0, 0.1)',
+        input: 'transparent',
+        'input-background': '#f3f3f5',
+        ring: 'oklch(0.708 0 0)',
+        background: '#ffffff',
+        foreground: 'oklch(0.145 0 0)',
+        primary: '#030213',
+        'primary-foreground': 'oklch(1 0 0)',
+        secondary: 'oklch(0.95 0.0058 264.53)',
+        'secondary-foreground': '#030213',
+        destructive: '#d4183d',
+        'destructive-foreground': '#ffffff',
+        muted: '#ececf0',
+        'muted-foreground': '#717182',
+        accent: '#e9ebef',
+        'accent-foreground': '#030213',
+        card: '#ffffff',
+        'card-foreground': 'oklch(0.145 0 0)',
+        popover: 'oklch(1 0 0)',
+        'popover-foreground': 'oklch(0.145 0 0)',
+      },
+      borderRadius: {
+        md: '0.5rem',
+      },
+    },
+  },
+  plugins: [],
+}
