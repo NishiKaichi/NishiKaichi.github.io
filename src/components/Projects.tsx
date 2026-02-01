@@ -55,7 +55,7 @@ export function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [username, setUsername] = useState('NishiKaichi');
+  const [username] = useState('NishiKaichi');
 
   useEffect(() => {
     fetchGitHubRepos();
