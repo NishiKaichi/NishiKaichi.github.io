@@ -1,6 +1,6 @@
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
-import { Mail, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Linkedin, Github } from 'lucide-react';
 
 export function Contact() {
   return (
@@ -60,20 +60,6 @@ export function Contact() {
                 </div>
               </a>
 
-              <a 
-                href="https://x.com/syaf_wantjob"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-sky-500 hover:bg-sky-50 transition-all duration-300"
-              >
-                <div className="w-12 h-12 rounded-full bg-sky-100 flex items-center justify-center">
-                  <Twitter className="w-6 h-6 text-sky-500" />
-                </div>
-                <div>
-                  <div className="font-semibold">Twitter</div>
-                  <div className="text-sm text-gray-600">@syaf_wantjob</div>
-                </div>
-              </a>
             </div>
 
             <div className="text-center pt-6 border-t border-gray-200">

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Heart } from 'lucide-react';
+import { Github, Linkedin, Heart } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -60,14 +60,6 @@ export function Footer() {
                 className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition"
               >
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a 
-                href="https://x.com/syaf_wantjob"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition"
-              >
-                <Twitter className="w-5 h-5" />
               </a>
             </div>
           </div>
